@@ -1,0 +1,11 @@
+t = 0:0.01:1;
+y1 = 10 * exp(t);
+y2 = cos(20 * t);
+
+[ax, h1, h2] = plotyy(t, y1, t, y2);
+xlabel('t')
+ylabel(ax(1), 'y1(t)')
+ylabel(ax(2), 'y2(t)')
+title('Графіки функцій y1(t) = 10e^t та y2(t) = cos(20t)')
+grid on
+

@@ -1,0 +1,12 @@
+t = linspace(0, 2*pi, 1000);
+a = 1;
+n = 5; % Змініть значення n, щоб отримати різні варіанти равлика Паскаля
+x = a * cos(t) .* cos(n*t);
+y = a * cos(t) .* sin(n*t);
+
+plot(x, y)
+xlabel('x')
+ylabel('y')
+title('Равлик Паскаля')
+grid on
+

@@ -1,0 +1,10 @@
+t = 0:0.03:1;
+x = t .* cos(5 * t).^2;
+y = (1 - t) .* sin(t);
+
+plot(x, y)
+xlabel('x')
+ylabel('y(x)')
+title('Графік параметричної функції y(x)')
+grid on
+

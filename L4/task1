@@ -1,0 +1,8 @@
+t = 0:0.01:pi;
+y = cos(2*t).^2 .* sin(10*t);
+plot(t, y)
+xlabel('t')
+ylabel('y(t)')
+title('Графік функції y(t) = cos^2(2t) * sin(10t)')
+grid on
+
